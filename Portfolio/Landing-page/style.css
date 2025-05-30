@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.95;
+    color:black;
+    background-color:lightskyblue;
+}
+nav a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+}
+.hero {
+    background-color:indigo;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.hero button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#about, #services, #contact {
+    padding: 40px;
+    text-align: center;
+}
+.service-box {
+    border: 10px solid black ;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+    background-color:sandybrown;
+}
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+footer {
+    background-color:indigo;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
